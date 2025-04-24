@@ -1,3 +1,6 @@
+# Результаты работы виртуального ассистента RASA
+
+``` log
 2025-04-25 00:00:49 DEBUG    rasa.core.lock_store  - Issuing ticket for conversation 'PractikumStudent'.
 2025-04-25 00:00:49 DEBUG    rasa.core.lock_store  - Acquiring lock for conversation 'PractikumStudent'.
 2025-04-25 00:00:49 DEBUG    rasa.core.lock_store  - Acquired lock for conversation 'PractikumStudent'.
@@ -314,3 +317,4 @@
 2025-04-25 00:01:36 DEBUG    rasa.core.processor  - [debug    ] processor.actions.log          action_name=action_listen rasa_events=[]
 2025-04-25 00:01:36 DEBUG    rasa.core.tracker_store  - No event broker configured. Skipping streaming events.
 2025-04-25 00:01:36 DEBUG    rasa.core.lock_store  - Deleted lock for conversation 'PractikumStudent'.
+```
